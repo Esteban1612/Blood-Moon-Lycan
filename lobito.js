@@ -82,9 +82,9 @@
   border:2px solid var(--luna);border-radius:50%;background:var(--noche);color:var(--luna);font:inherit;font-size:18px;line-height:1;cursor:pointer}
 #lobito .lb-min:hover{background:var(--sangre);border-color:var(--sangre)}
 #lobito .lb-min:focus-visible,#lobito .lb-mini:focus-visible{outline:3px solid var(--luna);outline-offset:3px}
-#lobito .lb-mini{width:56px;height:56px;padding:0;overflow:hidden;border:3px solid var(--sangre);border-radius:50%;background:var(--noche);cursor:pointer;
+#lobito .lb-mini{position:relative;width:56px;height:56px;padding:0;overflow:hidden;border:3px solid var(--sangre);border-radius:50%;background:var(--noche);cursor:pointer;
   box-shadow:0 0 14px rgba(200,40,58,.45)}
-#lobito .lb-mini img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 10%}
+#lobito .lb-mini img{position:absolute;display:block;max-width:none;width:165%;height:165%;left:-33%;top:0}
 #lobito .lb-form .lb-link{display:block;margin-top:8px;text-align:center}
 #lobito .lb-manual{display:block;box-sizing:border-box;width:100%;margin-top:8px;padding:8px 10px;border:1.5px solid var(--luna);border-radius:8px;
   background:rgba(242,232,208,.08);color:var(--luna);font:inherit;font-size:14px}
